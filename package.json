@@ -1,0 +1,37 @@
+{
+  "name": "daum-map-wrap",
+  "version": "1.0.0",
+  "description": "Simple wrapper to load daum map async",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Perlmint/daum-map-wrap.git"
+  },
+  "keywords": [
+    "daum",
+    "map",
+    "async"
+  ],
+  "author": "Gyusun Yeom <omniavinco@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Perlmint/daum-map-wrap/issues"
+  },
+  "homepage": "https://github.com/Perlmint/daum-map-wrap#readme",
+  "devDependencies": {
+    "typescript": "^2.5.3"
+  },
+  "dependencies": {
+    "postscribe": "^2.0.8"
+  },
+  "files": [
+    "daum_map.d.ts",
+    "index.d.ts",
+    "index.js",
+    "README.md",
+    "package.json"
+  ]
+}
